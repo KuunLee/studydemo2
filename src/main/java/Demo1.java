@@ -13,9 +13,12 @@ public class Demo1 {
             a = b + i;
             b++;
             if(a == i - b){
+                System.out.println(i);
                 break;
             }
+
         }
-        System.out.printf("i");
+        System.out.println(a);
+        System.out.println(b);
     }
 }
