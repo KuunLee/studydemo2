@@ -7,8 +7,8 @@ public class Demo1 {
         int count = 0;
         String s = "s";
         Optional.ofNullable(s);
-        int a = 0;
-        int b = 0;
+        int a = 30;
+        int b = 5;
         for (int i = 10; i >= 0; i--) {
             a = b + i;
             b++;
